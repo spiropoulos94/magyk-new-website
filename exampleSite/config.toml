@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "http://examplesite.org"
-title = "Educenter | hugo education template"
+title = "Magyc Software NC"
 theme = "magyk-new-website"
 # post pagination
 paginate = "6"
@@ -120,9 +120,9 @@ URL = "research"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/magicLogo.png"
 # Meta data
-description = "This is meta description"
+description = "Magyc Software Website"
 author = "Themefisher"
 # contact info
 address = "9567 Turner Trace Apt. BC C3G8A4"

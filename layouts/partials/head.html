@@ -4,8 +4,10 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
   {{ "<!-- plugins -->" | safeHTML }}
@@ -16,6 +18,8 @@
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
