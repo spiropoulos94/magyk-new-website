@@ -22,9 +22,6 @@ body {
   font-size: 15px;
   color: #5c5c77; }
 
-  
-
-
 p, .paragraph {
   font-weight: 400;
   color: #5c5c77;
@@ -810,6 +807,3 @@ link:focus,
   .tag-list a:hover {
     background-color: #ffbc3b;
     color: #fff; }
-
-
-    
