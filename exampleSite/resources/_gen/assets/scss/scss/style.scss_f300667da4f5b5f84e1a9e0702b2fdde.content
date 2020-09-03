@@ -807,3 +807,6 @@ link:focus,
   .tag-list a:hover {
     background-color: #ffbc3b;
     color: #fff; }
+
+.navLogo {
+  width: 100px; }

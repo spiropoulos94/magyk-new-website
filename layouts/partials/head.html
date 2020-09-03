@@ -10,15 +10,21 @@
   <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ end }}
+
+
 
   {{ "<!-- Initial Theme Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-  {{ "<!-- plugins -->" | safeHTML }}
-  {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
-  {{ end }}
+  {{ "<!-- Initial Theme Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
 
 
 
