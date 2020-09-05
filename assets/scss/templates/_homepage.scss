@@ -170,7 +170,7 @@
     transparent 50%,
     $primary-color 50%
   );
-  margin-bottom: -170px;
+
   position: relative;
   z-index: 1;
 
@@ -217,13 +217,13 @@
 }
 
 .logo-footer {
-  margin-top: -20px;
+  margin-top: 0px;
   display: inline-block;
+  width: 15%;
 }
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
 }
 
 /* /footer */

@@ -745,7 +745,6 @@ link:focus,
 /* footer */
 .newsletter {
   background-image: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
-  margin-bottom: -170px;
   position: relative;
   z-index: 1; }
   .newsletter-block {
@@ -777,12 +776,12 @@ link:focus,
   background-color: #182b45; }
 
 .logo-footer {
-  margin-top: -20px;
-  display: inline-block; }
+  margin-top: 0px;
+  display: inline-block;
+  width: 15%; }
 
 .footer {
-  border-color: #494a43 !important;
-  padding-top: 275px; }
+  border-color: #494a43 !important; }
 
 /* /footer */
 .filter-controls li {
