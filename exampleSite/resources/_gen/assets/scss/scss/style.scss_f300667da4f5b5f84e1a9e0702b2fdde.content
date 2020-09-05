@@ -624,8 +624,7 @@ link:focus,
 
 /* banner feature */
 .feature-blocks-wrapper {
-  margin: 4vh auto;
-  background: red; }
+  margin: 4vh auto; }
 
 .feature-icon {
   font-size: 50px;
@@ -633,10 +632,8 @@ link:focus,
   display: inline-block; }
 
 .feature-blocks {
-  margin: auto; }
-  @media (max-width: 1400px) {
-    .feature-blocks {
-      padding-right: 10%; } }
+  margin: auto;
+  margin-top: 10%; }
   @media (max-width: 1200px) {
     .feature-blocks {
       padding-right: 50px;

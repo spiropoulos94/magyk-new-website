@@ -1,7 +1,6 @@
 /* banner feature */
 .feature-blocks-wrapper {
   margin: 4vh auto;
-  background: red;
 }
 
 .feature-icon {
@@ -12,9 +11,9 @@
 
 .feature-blocks {
   margin: auto;
+  margin-top: 10%;
 
   @include desktop-xl {
-    padding-right: 10%;
   }
 
   @include desktop-lg {
