@@ -482,7 +482,7 @@ textarea.form-control {
   background-color: #1a1a37; }
 
 .nav-logo {
-  width: 15%; }
+  width: 100%; }
 
 .nav-item {
   margin: 0 15px;
