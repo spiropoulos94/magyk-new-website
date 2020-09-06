@@ -52,7 +52,7 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "course"
+name = "Services"
 URL = "course"
 weight = 2
 
@@ -125,7 +125,7 @@ URL = "research"
 logo = "images/magicLogo.png"
 # Meta data
 description = "Magyc Software Website"
-author = "Themefisher"
+author = "spiropoulos94@gmail.com"
 # contact info
 address = "9567 Turner Trace Apt. BC C3G8A4"
 mobile = "+211234565523"
