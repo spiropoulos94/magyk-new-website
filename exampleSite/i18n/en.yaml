@@ -75,7 +75,7 @@
 
 - id: join
   translation: Join
-  
+
 - id: enter_email
   translation: Enter your email…
 
@@ -85,8 +85,8 @@
 - id: links
   translation: links
 
-- id: courses
-  translation: Courses
+- id: services
+  translation: Services
 
 - id: new_notice
   translation: new notice
